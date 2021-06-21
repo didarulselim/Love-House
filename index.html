@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+	<link rel="shortcut icon" type="image/png" href="assets/images/fevicon1.png">
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    
+    <title>House Reant ! Find Your Dreem House Rent</title>
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+  	<div id="loader">
+  		<!-- <img border="0" src="assets/images/loder.gif" alt="Preloder" width="200" height="200"> -->
+      <svg viewBox="0 0 100 100">
+  
+  <g class="big">
+    <circle cx="50" cy="50" r="40" />
+    <path d="M 50.00 50.00 L 14.64 14.64 A 50.00 50.00 0 0 0 14.64 85.36 L 50.00 50.00" />
+    <path d="M 50.00 50.00 L 85.36 85.36 A 50.00 50.00 0 0 0 85.36 14.64 L 50.00 50.00" />
+  </g>
+  
+  <g class="small">
+    <circle cx="50" cy="50" xr="22.5" r="40"  />
+    <path d="M 50.00 50.00 L 25.25 74.75 A 35.00 35.00 0 0 0 74.75 74.75 L 50.00 50.00" />
+    <path d="M 50.00 50.00 L 74.75 25.25 A 35.00 35.00 0 0 0 25.25 25.25 L 50.00 50.00" />
+  </g>
+  
+  <circle class="pkt" cx="50" cy="50" r="5" />
+  
+</svg>
+  	</div>
+
+   <Section class="home col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-left" style="display:none;" id="myDiv">
+   	<!-- <div class="home-content"> -->
+   		<div class="logo">
+   		   <img src="assets/images/logo1.png" alt="" class="">
+   	  </div>
+       	<h1 class="heading">Awesome Apartment Villa</h1>
+       	<p class="pre">No matter what the weather, no matter what the situation we are in, if we have the right perspective in life, life will always be beautiful!</p>
+       	<a href="services.html" class="btn btn-color text-white "> Find Your Room </a>
+   	<!-- </div> -->
+   </Section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/bootstrap.js" ></script>
+
+		<script>
+		var myVar;
+
+		function myFunction() {
+		  myVar = setTimeout(showPage, 3000);
+		}
+
+		function showPage() {
+		  document.getElementById("loader").style.display = "none";
+		  document.getElementById("myDiv").style.display = "block";
+		}
+		</script>
+	<script>console.clear();</script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
